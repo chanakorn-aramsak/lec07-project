@@ -1,0 +1,2 @@
+module SscoresHelper
+end
