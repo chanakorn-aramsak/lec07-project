@@ -1,6 +1,6 @@
-class CreateSscores < ActiveRecord::Migration[7.0]
+class CreateScores < ActiveRecord::Migration[7.0]
   def change
-    create_table :sscores do |t|
+    create_table :scores do |t|
       t.string :subject
       t.integer :point
       t.string :grade
