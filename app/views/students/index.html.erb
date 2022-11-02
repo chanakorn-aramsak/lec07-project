@@ -7,8 +7,10 @@
     <%= render student %>
     <p>
       <%= link_to "Show this student", student %>
+      <%= link_to "Edit Score", aaa_path(student.id) , stu:student %>
     </p>
   <% end %>
 </div>
 
 <%= link_to "New student", new_student_path %>
+
